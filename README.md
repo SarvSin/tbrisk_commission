@@ -4,9 +4,9 @@ Introduction
 Tuberculosis (TB) is a highly contagious health threat, and quantification of its risk across a region is a crucial task. In this report, the factors influencing the rate of TB cases per unit population are assessed. For a period of 3 years, data on the number of cases in each region are analysed in association with information on various socio-economic variables.  The aim is to understand the influences of socio-economy, spatial, temporal and spatio-temporal factors on the level and spread of TB risk across Brazil. 
 
 <p align="center">
-  <figure>
 <img class="center" width="224" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/e14fdfe3-6814-45d6-af0b-2009bac3f5c5">
-<figcaption>Figure 1: Spatial distribution of TB risk according to model, 2013</figcaption></figure></p>
+</p>
+<h6 align="center">Figure 1: Spatial distribution of TB risk according to model, 2013</h6>
                                                     
 
 Methods 
@@ -17,14 +17,13 @@ The number of cases observed in circumscribed monitoring regions depends on the 
 Finally, for a response variable distributed according to Poisson, the variance is equal to the mean. After adjusting the structure of the model as described above, extra variance and significant deviance remained. In this analysis, overdispersion is modelled by the Negative Binomial distribution. (Fig. 3)
 
 <p align="center">
-  <figure>
-  <img class="center" width="217" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/51e69042-0578-49e0-adf3-2cdeea8b8d7f">
-Figure 2: (a) Poor Sanitation and TB risk, 2012-14;</p>
+  <img class="center" width="217" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/51e69042-0578-49e0-adf3-2cdeea8b8d7f"></p>
+<h6 align="center">Figure 2: (a) Poor Sanitation and TB risk, 2012-14;</h6>
                                 
 <p align="center">
 <img class="center" width="212" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/033dcb68-7ea4-4c50-b8d1-a5b9fb670757">
-Figure 2: (b) Timeliness and TB risk, 2012-14</p>
-                               
+</p>
+<h6 align="center">Figure 2: (b) Timeliness and TB risk, 2012-14</h6>                               
 
 
 Results
@@ -34,19 +33,18 @@ Higher dwelling density is found to have a positive impact on TB risk (Fig. 4(b)
 
 <p align="center">
   <img class="center" width="262" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/977f979f-c33a-4792-bb96-d09add499485">
-                                    Figure 4: Dispersion parameter differences across distributions
 </p>
+<h6 align="center">Figure 4: Dispersion parameter differences across distributions</h6>
 
 
 Although these covariates explained a portion of the variance in TB risk, analysing the model fit suggested that some other influential factor was missing from the model. Hence, spatial data was included in the assessment and was found to be highly significant. By including an interaction between the geographical coordinates of regions, the model fit improved and implied the importance of spatial factors in explaining a portion of TB risk besides socio-economic variables selected above. The validation metrics of these models for each year still implied room for improvement. Given the knowledge of specific significant socio-economic factors, and a spatial explanation for TB risk, the data was then pooled to analyse if any overall temporal component was influential.
 <p align="center">
   <img class="center" width="187" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/d66b099d-2d3c-4750-b777-3cfc01e5490b">
-                          Figure 3: (a) Unemployment and TB risk, 2012-14; 
- </p>         
+                          
+ </p>         <h6 align="center">Figure 3: (a) Unemployment and TB risk, 2012-14; </h6>
 <p align="center">
   <img class="center" width="192" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/31f72b8e-9c7b-433e-986f-8ba5071c63e8">
-                          Figure 3: (b) Dwelling density and TB risk, 2012-14
-</p>
+</p> <h6 align="center"> Figure 3: (b) Dwelling density and TB risk, 2012-14</h6>
 
 To begin, only the temporal nature of the data was analysed.  All non-spatial covariates were fit with variable Year as the factor smooth, and this model yielded highly significant components. Although an inclusion of time as a differential intercept did not prove to be significant, its association with other non-spatial covariates was consistently informative. This implied a potentially useful interaction of time with the spatial component of data. Thus, an interaction of coordinates with variable Year was tested in multiple methodological variations. 
 
@@ -58,12 +56,12 @@ This report provides quantitative evidence on the relative importance of various
 
 <p align="center">
   <img width="226" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/4fa95e25-bfec-4ef1-b9c5-31dc0423b040">
-                                                       Figure 5: Spatial distribution of TB risk, (a) 2012; 
-</p>
+</p><h6 align="center"> Figure 5: Spatial distribution of TB risk, (a) 2012; </h6>
+
    <p align="center">                                                    
   <img class="center" width="224" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/254a14ac-0c48-4bdb-b59c-125ce4b3aa28">
-                                                       Figure 5: Spatial distribution of TB risk, (b) 2014
-</p>                                             
+</p>     <h6 align="center">  Figure 5: Spatial distribution of TB risk, (b) 2014 </h6>
+                                        
 
 
 
