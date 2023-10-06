@@ -1,5 +1,7 @@
 # Predicting spatial distribution of TB risk
 
+<h5>Background: Reproduction of commissioned public health data science research. Methodology used: Generalized Additive Models to fit nonlinear relationships in data</h5>
+
 Introduction
 Tuberculosis (TB) is a highly contagious health threat, and quantification of its risk across a region is a crucial task. In this report, the factors influencing the rate of TB cases per unit population are assessed. For a period of 3 years, data on the number of cases in each region are analysed in association with information on various socio-economic variables.  The aim is to understand the influences of socio-economy, spatial, temporal and spatio-temporal factors on the level and spread of TB risk across Brazil. 
 
