@@ -4,8 +4,9 @@ Introduction
 Tuberculosis (TB) is a highly contagious health threat, and quantification of its risk across a region is a crucial task. In this report, the factors influencing the rate of TB cases per unit population are assessed. For a period of 3 years, data on the number of cases in each region are analysed in association with information on various socio-economic variables.  The aim is to understand the influences of socio-economy, spatial, temporal and spatio-temporal factors on the level and spread of TB risk across Brazil. 
 
 <p align="center">
+  <figure>
 <img class="center" width="224" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/e14fdfe3-6814-45d6-af0b-2009bac3f5c5">
-Figure 1: Spatial distribution of TB risk according to model, 2013</p>
+<figcaption>Figure 1: Spatial distribution of TB risk according to model, 2013</figcaption></figure></p>
                                                     
 
 Methods 
@@ -16,6 +17,7 @@ The number of cases observed in circumscribed monitoring regions depends on the 
 Finally, for a response variable distributed according to Poisson, the variance is equal to the mean. After adjusting the structure of the model as described above, extra variance and significant deviance remained. In this analysis, overdispersion is modelled by the Negative Binomial distribution. (Fig. 3)
 
 <p align="center">
+  <figure>
   <img class="center" width="217" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/51e69042-0578-49e0-adf3-2cdeea8b8d7f">
 Figure 2: (a) Poor Sanitation and TB risk, 2012-14;</p>
                                 
