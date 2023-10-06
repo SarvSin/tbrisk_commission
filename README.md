@@ -5,8 +5,8 @@ Tuberculosis (TB) is a highly contagious health threat, and quantification of it
 
 <p align="center">
 <img class="center" width="224" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/e14fdfe3-6814-45d6-af0b-2009bac3f5c5">
-</p>
-                                                    Figure 1: Spatial distribution of TB risk according to model, 2013
+Figure 1: Spatial distribution of TB risk according to model, 2013</p>
+                                                    
 
 Methods 
 The Generalised Additive Models framework will be used to analyse this problem. Public health data, especially concerning the risk and spread of disease, involves dependence on multiple socio-economic, spatial, and temporal covariates. Forcing a fixed parametric form on complex, unknown relationships can lead to ill-fitting models with adverse consequences. However, GAMs do not require any assumptions on specific forms of relationship between the covariates and the response variable. It is this flexibility that makes this framework ideal for the present problem. 
@@ -17,12 +17,12 @@ Finally, for a response variable distributed according to Poisson, the variance 
 
 <p align="center">
   <img class="center" width="217" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/51e69042-0578-49e0-adf3-2cdeea8b8d7f">
-</p>
-                               Figure 2: (a) Poor Sanitation and TB risk, 2012-14; 
+Figure 2: (a) Poor Sanitation and TB risk, 2012-14;</p>
+                                
 <p align="center">
 <img class="center" width="212" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/033dcb68-7ea4-4c50-b8d1-a5b9fb670757">
-</p>
-                               Figure 2: (b) Timeliness and TB risk, 2012-14
+Figure 2: (b) Timeliness and TB risk, 2012-14</p>
+                               
 
 
 Results
@@ -32,19 +32,19 @@ Higher dwelling density is found to have a positive impact on TB risk (Fig. 4(b)
 
 <p align="center">
   <img class="center" width="262" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/977f979f-c33a-4792-bb96-d09add499485">
-</p>
                                     Figure 4: Dispersion parameter differences across distributions
+</p>
 
 
 Although these covariates explained a portion of the variance in TB risk, analysing the model fit suggested that some other influential factor was missing from the model. Hence, spatial data was included in the assessment and was found to be highly significant. By including an interaction between the geographical coordinates of regions, the model fit improved and implied the importance of spatial factors in explaining a portion of TB risk besides socio-economic variables selected above. The validation metrics of these models for each year still implied room for improvement. Given the knowledge of specific significant socio-economic factors, and a spatial explanation for TB risk, the data was then pooled to analyse if any overall temporal component was influential.
 <p align="center">
   <img class="center" width="187" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/d66b099d-2d3c-4750-b777-3cfc01e5490b">
- </p>         
                           Figure 3: (a) Unemployment and TB risk, 2012-14; 
+ </p>         
 <p align="center">
   <img class="center" width="192" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/31f72b8e-9c7b-433e-986f-8ba5071c63e8">
-</p>
                           Figure 3: (b) Dwelling density and TB risk, 2012-14
+</p>
 
 To begin, only the temporal nature of the data was analysed.  All non-spatial covariates were fit with variable Year as the factor smooth, and this model yielded highly significant components. Although an inclusion of time as a differential intercept did not prove to be significant, its association with other non-spatial covariates was consistently informative. This implied a potentially useful interaction of time with the spatial component of data. Thus, an interaction of coordinates with variable Year was tested in multiple methodological variations. 
 
@@ -56,12 +56,12 @@ This report provides quantitative evidence on the relative importance of various
 
 <p align="center">
   <img width="226" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/4fa95e25-bfec-4ef1-b9c5-31dc0423b040">
-</p>
                                                        Figure 5: Spatial distribution of TB risk, (a) 2012; 
+</p>
    <p align="center">                                                    
   <img class="center" width="224" alt="image" src="https://github.com/SarvSin/tbrisk_commission/assets/117599272/254a14ac-0c48-4bdb-b59c-125ce4b3aa28">
-</p>                                             
                                                        Figure 5: Spatial distribution of TB risk, (b) 2014
+</p>                                             
 
 
 
